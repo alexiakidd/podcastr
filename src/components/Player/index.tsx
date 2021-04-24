@@ -1,3 +1,5 @@
+import styles from './styles.module.scss'
+
 export default function Player() {
-	return <></>
+	return <div className={styles.playerContainer}></div>
 }
